@@ -67,7 +67,7 @@
 <#macro commonHeader>
 	<header class="main-header">
 		<a href="${request.contextPath}/" class="logo">
-			<span class="logo-mini"><b>XXL</b></span>
+			<span class="logo-mini"><b>MIS</b></span>
 			<span class="logo-lg"><b>${I18n.admin_name}</b></span>
 		</a>
 		<nav class="navbar navbar-static-top" role="navigation">
@@ -227,12 +227,9 @@
 
 <#macro commonFooter >
 	<footer class="main-footer">
-        Powered by <b>XXL-JOB</b> ${I18n.admin_version}
+        Powered by <b>MIS-JOB</b> ${I18n.admin_version}
 		<div class="pull-right hidden-xs">
-            <strong>Copyright &copy; 2015-${.now?string('yyyy')} &nbsp;
-                <a href="https://www.xuxueli.com/" target="_blank" >xuxueli</a>
-				&nbsp;
-                <a href="https://github.com/xuxueli/xxl-job" target="_blank" >github</a>
+            <strong>Copyright &copy; 2019-${.now?string('yyyy')} &nbsp;
             </strong><!-- All rights reserved. -->
 		</div>
 	</footer>
